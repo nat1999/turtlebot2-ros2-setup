@@ -39,3 +39,9 @@ gazebo
 sudo apt install ros-humble-gazebo-ros-pkgs
 ```
 
+## Visualización del robot en Gazebo
+
+Para visualizar el robot en Gazebo, ejecuta el siguiente comando:
+
+```bash
+ros2 launch turtlebot2_gazebo turtlebot2_world.launch.py
