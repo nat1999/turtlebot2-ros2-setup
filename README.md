@@ -49,3 +49,19 @@ ros2 launch turtlebot2_gazebo turtlebot2_world.launch.py
 <p align="center">
 <img width="670" height="511" alt="image" src="https://github.com/user-attachments/assets/a54a003f-1f76-44c7-bd35-ea907f8a4a83" />
 </p>
+
+## Prueba de movimiento del robot
+
+Para verificar si el robot realiza algún movimiento, se pueden enviar comandos de velocidad al tópico `/cmd_vel`.
+
+### Movimiento en trayectoria recta
+```bash
+ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.2}, angular: {z: 0.0}}" -1
+```
+
+### Movimiento en trayectoria circular 
+```bash
+ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.0}, angular: {z: 0.5}}" -1
+```
+
+
