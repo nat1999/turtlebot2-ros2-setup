@@ -14,3 +14,19 @@ A continuación, se presentan los principales paquetes incluidos en el proyecto:
 - `turtlebot2_ros2`
 - `turtlebot2_slam`
 - `turtlebot_description`
+
+
+## Instalación de Gazebo
+
+Para ejecutar la simulación del TurtleBot es necesario instalar **Gazebo**.
+
+### 1. Actualizar el sistema
+```bash
+sudo apt update
+sudo apt upgrade
+
+### 2. Instalar el gazebo
+sudo apt install gazebo
+
+### 3. Verificación de instalación
+gazebo
