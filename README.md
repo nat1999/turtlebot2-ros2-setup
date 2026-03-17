@@ -34,5 +34,8 @@ sudo apt install gazebo
 gazebo
 ```
 
-
+## Instalar paquetes adicionales (recomendado para ROS / TurtleBot)
+```bash
+sudo apt install ros-humble-gazebo-ros-pkgs
+```
 
