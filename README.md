@@ -24,9 +24,15 @@ Para ejecutar la simulación del TurtleBot es necesario instalar **Gazebo**.
 ```bash
 sudo apt update
 sudo apt upgrade
-
-### 2. Instalar el gazebo
+```
+### 2. Instalar gazebo 
+```bash
 sudo apt install gazebo
-
+```
 ### 3. Verificación de instalación
+```bash
 gazebo
+```
+
+
+
