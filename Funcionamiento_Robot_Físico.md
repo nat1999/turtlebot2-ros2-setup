@@ -10,10 +10,13 @@ Esto permite que el dispositivo (USB Serial Converter) sea reconocido dentro de 
 
 Una vez conectado el USB, se verifica que el sistema lo reconozca con:
 
+```bash
 ls /dev/ttyUSB*
+```
 
 Si el dispositivo está correctamente conectado, aparecerá una salida como:
 
+```bash
 /dev/ttyUSB0
-
+```
 Esto confirma que el convertidor USB-Serial está disponible para su uso en Ubuntu.
