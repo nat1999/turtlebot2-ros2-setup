@@ -20,3 +20,15 @@ Si el dispositivo está correctamente conectado, aparecerá una salida como:
 /dev/ttyUSB0
 ```
 Esto confirma que el convertidor USB-Serial está disponible para su uso en Ubuntu.
+
+
+## 🚀 Ejecución del nodo Kobuki
+
+Una vez detectado el dispositivo USB, se lanza el nodo del robot con:
+
+```bash
+ros2 launch kobuki_node kobuki_node-launch.py
+```
+Este comando inicia el driver de Kobuki, permitiendo la comunicación con el robot a través del puerto serial (`/dev/ttyUSB0`).
+
+Con esto, el robot queda listo para recibir comandos y operar desde ROS 2.
