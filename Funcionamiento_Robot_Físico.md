@@ -1,10 +1,19 @@
 ## 🔌 Conexión de USB a WSL
 
+El comando usbipd list muestra los dispositivos USB conectados al sistema junto con su BUSID, VID:PID, nombre y estado. Por ejemplo:
+
+2-2 → USB Serial Converter (Shared)
+2-4 → Realtek Bluetooth 4.2 Adapter (Not shared)
+3-2 → HP Wide Vision HD Camera (Not shared)
+
+En este caso, si se desea conectar el dispositivo USB Serial Converter a WSL, se usa el BUSID 2-2:
+
 Se utiliza el siguiente comando para conectar un dispositivo USB desde Windows a WSL:
 ```bash
-usbipd attach --busid 1-2 --wsl
+usbipd attach --busid 2-2 --wsl
 ```
 Esto permite que el dispositivo (USB Serial Converter) sea reconocido dentro de Ubuntu como, por ejemplo, `/dev/ttyUSB0`.
+Además el BUSID puede cambiar si el dispositivo se desconecta, se mueve de puerto o se reinicia el sistema, por lo que siempre debe verificarse con usbipd list antes de hacer el attach.
 
 ## 🔍 Verificación del dispositivo en WSL
 
