@@ -1,4 +1,4 @@
-Para el desarrollo del sistema se utilizaron los paquetes del TurtleBot adaptados para ejecutarse sin el uso de Docker, trabajando directamente sobre Windows Subsystem for Linux. Esta herramienta permitió disponer de un entorno Linux funcional dentro de Windows, facilitando la ejecución de ROS 2, la compatibilidad con los paquetes del robot y la comunicación con los dispositivos de hardware desde un mismo equipo, sin necesidad de máquinas virtuales o contenedores.
+Para el desarrollo del sistema se utilizaron los paquetes del TurtleBot adaptados para ejecutarse sin el uso de **Docker**, trabajando directamente sobre ***Windows Subsystem for Linux**. Esta herramienta permitió disponer de un entorno Linux funcional dentro de Windows, facilitando la ejecución de ROS 2, la compatibilidad con los paquetes del robot y la comunicación con los dispositivos de hardware desde un mismo equipo, sin necesidad de máquinas virtuales o contenedores.
 
 ## Paquetes del TurtleBot
 
