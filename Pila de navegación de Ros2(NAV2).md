@@ -21,4 +21,4 @@ Nav2 incluye paquetes como:
 - `nav2_bt_navigator`: Coordinación de navegación. 
 - `nav2_bringup`: Inicia todos los nodos de Nav2.
 
-# 🤖 Adaptación del TurtleBot2 para que usar ROS 2 Navigation (Nav2)
+
